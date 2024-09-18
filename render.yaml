@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-api-service
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm run server-dev"
